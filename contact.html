@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<meta charset="utf-8">
+    <title>Contact Me</title>
+    <script src="src/contact.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_wpny12fxzHR0pcNGOLvTL");
+        })();
+    </script>
+</head>
+<body>
+    <div class="header">
+		<div id="left-header">
+			<a href="https://rockc15.github.io" class="button">Previous Student</a>
+		</div>
+		<div id="middle-header">
+			<a href="index.html" class="button">Home</a>
+			<a href="aboutMe.html" class="button">About</a>
+			<a href="contact.html" class="button">Contact</a>
+			<a href="https://mattm401.github.io/" class="button">Course Page</a>
+		</div>
+		<div id="right-header">
+			<a href="https://sobotab.github.io" class="button">Next Student</a>
+		</div>
+	</div>
+    <h1>Contact Me</h1>
+    <form id="contact-form"  onsubmit="return false">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="user_fname"><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="user_lname"><br>
+
+        <label for="email">Email address:</label><br>
+        <input type="text" id="email" name="user_email"><br>
+
+        <label for="phone">Phone number:</label><br>
+        <input type="text" id="phone" name="user_phone"><br>
+
+        <label for="message">Message:</label><br>
+        <textarea type="text" id="message" name="user_message"></textarea><br>
+        <input type="submit" id="send-button" value="Send">
+        <p id="error"></p>
+      </form> 
+      
+</body>
+</html>

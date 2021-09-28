@@ -4,13 +4,14 @@ html {
 
 body {
 	background-color: #F6F4F3;
+	margin-top: 75px;
 }
 
 h1, button {
 	font-family: quicksand;
 }
 
-h2, p, li {
+h2, p, li, label {
 	font-family: caslon;
 }
 
@@ -41,6 +42,10 @@ ul li {
 	text-align: left;
 	font-size: 150%;
 }
+input {
+	width: 600px;
+}
+
 
 .button {
 	background-color:  #0E7C7B;
@@ -55,20 +60,37 @@ ul li {
   	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.25);
 }
 
+.header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	padding-bottom: 50px;
+	overflow: hidden;
+	background-color: rgb(197, 197, 197);
+}
+
+#middle-header {
+	position: fixed;
+	top: 15px;
+	right: 0%;
+	left: 0%;
+}
+
 #left-header {
 	position: fixed;
 	top: 15px;
-	left: 5%;
+	left: 3%;
 }
 
 #right-header {
 	position: fixed;
 	top: 15px;
-	right: 5%;
+	right: 3%;
 }
 
 #footer {
-	position: fixed;
+	position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -81,6 +103,16 @@ ul li {
 	margin-left: auto;
 }
 
+#message {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 600px;
+	height: 150px;
+}
+
+#send-button {
+	width: 75px;
+	margin-top: 10px;
+}
 
 @font-face {
 	font-family: caslon;

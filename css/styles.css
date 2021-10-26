@@ -7,6 +7,7 @@ body {
 	margin-top: 75px;
 }
 
+
 h1, button {
 	font-family: quicksand;
 	color: white;
@@ -83,6 +84,39 @@ a {
 	top: 15px;
 	right: 3%;
 }
+
+
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	padding: 10px 10px;
+	z-index: 1;
+  }
+
+  .dropdown-content a {
+	  color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+
+	display: block;
+  }
+
+
+
+
+
+
+
+
 
 .button {
 	font-family: quicksand;
@@ -282,15 +316,13 @@ a {
 	margin-top: 1.5%;
 	margin-bottom: 1.5%;
 }
-.col1 {
-	
-	margin-left: 20%;
+#email {
+	margin-left: 90%;
 }
 
-.col2 {
-	margin-right: 20%;
+#lin {
+	margin-left: -50%;
 }
-
 .social {
 	height: 75px;
 	width: 75px;

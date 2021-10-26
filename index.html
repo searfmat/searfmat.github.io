@@ -10,27 +10,29 @@
 <body>
 	<div class="header">
 		<div id="middle-header">
-			<a href="index.html" class="button">About</a>
-			<a href="aboutMe.html" class="button">Projects</a>
-			<a href="contact.html" class="button">Resume</a>
-			<a href="https://mattm401.github.io/" class="button">Contact</a>
+			<a href="#top" class="button">About</a>
+			<a href="#proj" class="button">Projects</a>
+			<a href="#res" class="button">Resume</a>
+			<a href="#cont" class="button">Contact</a>
 		</div>
-		<div id="right-header">
-			<a href="https://sobotab.github.io" class="button">Course Menu</a>
+		<div class="dropdown" id="right-header">
+			<a href="" class="button" id="menu">Course Menu</a>
+			<div class="dropdown-content">
+				<a href="https://mattm401.github.io/">Course Site</a> <br>
+				<a href="https://sobotab.github.io">Next Student</a> <br>
+				<a href="https://rockc15.github.io">Previous Student</a>
+			</div>
 		</div>
 	</div>
 
-
-
-	
-	<div class='some-page-wrapper'>
+	<div class='some-page-wrapper' id="top">
 		<div class='row'>
 		  <div class='column'>
 			<div class='blue-column'>
 				<h1 class="name">Matthew Searfass</h1>
 				<h2 class="name2"> Computer Science student at the Univeristy of Delaware</h2>
 				<p>Hello!</p>
-				<p>I am currently a junior CS student at UD. My concentration is in Systems & Networks. I am very interested in embedded systemsm, and hope to persue a career in software/firmware engineering post-graduation.</p>
+				<p>Junior CS student at UD. My concentration is in Systems & Networks. I am interested in embedded systemsm, and hope to pursue a career in software/firmware engineering post-graduation. This is placeholder text because i never learned how to read</p>
 			</div>
 		  </div>
 		  <div class='column'>
@@ -41,38 +43,47 @@
 		</div>
 	  </div>
 
-	<div class="projects">
+	<div class="projects" id="proj">
 		<div class="project-text">
 			<h2>A few of my projects...</h2>
 
-			<a href="aboutMe.html" class="button-white">Land 4 Leps</a> <br>
+			<a href="https://github.com/searfmat/Land4Leps" class="button-white">Land 4 Leps</a> <br>
 			<p>A semester long Java project - in partnership with Mt. Cuba Center - to develop software which encourages the use of native plants in home gardens. Generated a list of plants based on input variables that users could drag-and-drop to design their own gardens.</p>
-			<a href="aboutMe.html" class="button-white">ELISA Analysis Program</a> <br>
+			<a href="https://github.com/searfmat/elisa" class="button-white">ELISA Analysis Program</a> <br>
 			<p>Diagnostic software used to generate reports on infections within a poultry flock.</p>
-			<a href="aboutMe.html" class="button-white">SFTP Client</a>
-		
+			<a href="https://github.com/searfmat/Python_SFTP" class="button-white">SFTP Client</a>
 			<p>Lightweight SFTP client for Windows developed in Python.</p> <br>
 		</div>
 	</div>
 
-	<div class="resume">
+	<div class="resume" id="res">
 		<h2>...and the rest of the resume</h2>
 		<object data="https://drive.google.com/file/d/10drA1Ood5r-gweRKTLn0oKN90ijedpgo/preview"" type="application/pdf" class="pdf"></object>	
 	</div>
-	<a href="aboutMe.html" class="button-black">Download</a>
-
-	<div class="logos">
-		<h2>Contact Me</h2>
-		<div class="col1">
-			<img src="https://w7.pngwing.com/pngs/1011/641/png-transparent-message-logo-yahoo-mail-email-address-webmail-email-icon-miscellaneous-angle-triangle.png" alt="email" class="social">
+	<a href="" class="button-black">Download</a>
+	<h2>Contact Me</h2>
+	<div class="logos" id="cont">
+		<div class="col">
+			<a href="mailto:searfmat@udel.edu">
+				<img src="https://www.freepnglogos.com/uploads/black-email-logo-png-0.png" alt="email" class="social" id="email">
+			</a>
 		</div>
 		<div class="col">
-			<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="social">
+			<a href="https://github.com/searfmat">
+				<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="social">
+			</a>
 		</div>
-		<div class="col2">
-			<img src="https://lh5.googleusercontent.com/proxy/SUENRIfTUlPMdHvlMsdImwtvmOeXAXuqxKbLiDQckaySsCCvn4DYxuJ4_Di0-7mmRW_xzsolVNneY8hxHKaW1c4ovw=s0-d" alt="LinkedIn" class="social">
+		<div class="col">
+			<a href="https://www.linkedin.com/in/matthew-searfass/">
+				<img src="https://lh5.googleusercontent.com/proxy/SUENRIfTUlPMdHvlMsdImwtvmOeXAXuqxKbLiDQckaySsCCvn4DYxuJ4_Di0-7mmRW_xzsolVNneY8hxHKaW1c4ovw=s0-d" alt="LinkedIn" class="social" id="lin">
+			</a>
 		</div>
 	</div>
-    
+
+	<div class="footer">
+		<p>Matthew Searfass 2021 | searfmat@udel.edu</p>
+	</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="src/index.js"></script>
 </body>
 </html>

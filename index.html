@@ -2,9 +2,18 @@
 <html lang="en">
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJYE05R382"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-GJYE05R382');
+	</script>
 	<link rel="stylesheet" href="css/styles.css">
 	<!-- Icon by @polshindanil from reshot -->
-	<link rel="icon" href="img/favicon.ico" type="icon" />
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
 	<meta charset="UTF-8">
 	<title>Matthew Searfass</title>
 </head>
@@ -17,8 +26,9 @@
 			<a href="#res" class="button">Resume</a>
 			<a href="#cont" class="button">Contact</a>
 		</div>
+		<!-- Dropdown menu that only appears on small screens -->
 		<div class="dropdown" id="hamburger">
-			<a href="" class="button" id="menu">Menu</a>
+			<a href="" class="button" id="menu-mobile">Menu</a>
 			<div class="dropdown-content">
 				<a href="#top">About</a> <br>
 				<a href="#proj">Projects</a> <br>
@@ -30,7 +40,7 @@
 				<a href="https://rockc15.github.io">Previous Student</a>
 			</div>
 		</div>
-
+		<!-- Full menu for normal screens -->
 		<div class="dropdown" id="right-header">
 			<a href="" class="button" id="menu">Course Menu</a>
 			<div class="dropdown-content">
@@ -41,6 +51,7 @@
 		</div>
 	</div>
 
+	<!-- Container for the about me section -->
 	<div class='about-wrapper' id="top">
 		<div class='row'>
 		  <div class='column'>
@@ -59,6 +70,7 @@
 		</div>
 	  </div>
 
+	<!-- Container for my projects section -->
 	<div class="projects" id="proj">
 		<div class="project-text">
 			<h2>A few of my projects...</h2>
@@ -71,11 +83,14 @@
 		</div>
 	</div>
 
+	<!-- Holds the resume built into the page -->
 	<div class="resume" id="res">
 		<h2>...and the rest of the resume</h2>
-		<object data="https://drive.google.com/file/d/10drA1Ood5r-gweRKTLn0oKN90ijedpgo/preview"" type="application/pdf" class="pdf"></object>	
+		<object data="https://drive.google.com/file/d/10drA1Ood5r-gweRKTLn0oKN90ijedpgo/preview" type="application/pdf" class="pdf"></object>	
 	</div>
-	<a href="downloads/Matthew Searfass Resume.pdf" class="button-black">Download</a>
+	<a href="downloads/Matthew-Searfass-Resume.pdf" class="button-black">Download</a>
+
+	<!-- Contact links -->
 	<h2>Contact Me</h2>
 	<div class="logos" id="cont">
 		<div class="col">
@@ -95,6 +110,7 @@
 		</div>
 	</div>
 
+	<!-- Simple footer -->
 	<div class="footer">
 		<p>Matthew Searfass 2021 | searfmat@udel.edu</p>
 	</div>

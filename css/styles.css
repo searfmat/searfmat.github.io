@@ -7,7 +7,6 @@ body {
 	margin-top: 75px;
 }
 
-
 h1, button {
 	font-family: quicksand;
 	color: white;
@@ -29,6 +28,7 @@ h1 {
 h2 {
 	font-size: 170%;
 }
+
 h3 {
 	font-size: 150%;
 }
@@ -48,6 +48,7 @@ ul li {
 	text-align: left;
 	font-size: 150%;
 }
+
 input {
 	width: 600px;
 }
@@ -56,6 +57,7 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
 .header {
 	position: fixed;
 	left: 0px;
@@ -73,26 +75,18 @@ a {
 	left: 0%;
 }
 
-#left-header {
-	position: fixed;
-	top: 15px;
-	left: 3%;
-}
-
 #right-header {
 	position: fixed;
 	top: 15px;
 	right: 3%;
 }
 
-
-
 .dropdown {
 	position: relative;
 	display: inline-block;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
 	display: none;
 	position: relative;
 	background-color: #f9f9f9;
@@ -100,23 +94,15 @@ a {
 	padding: 10px 10px;
 	z-index: 2;
 	font-family: caslon;
-  }
+}
 
-  .dropdown-content a {
-	  color: black;
-  }
+.dropdown-content a {
+	color: black;
+}
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
 	display: block;
-  }
-
-
-
-
-
-
-
-
+}
 
 .button {
 	font-family: quicksand;
@@ -130,13 +116,13 @@ a {
 	transition: all 0.3s ease;
 	position: relative;
 	display: inline-block;
-  }
+}
 
-  .button {
+.button {
 	transition: all 0.3s ease;
 	overflow: hidden;
-  }
-  .button:after {
+}
+.button:after {
 	position: absolute;
 	content: " ";
 	top: 0;
@@ -147,17 +133,17 @@ a {
 	transition: all 0.3s ease;
 	-webkit-transform: scale(.1);
 	transform: scale(.1);
-  }
-  .button:hover {
+}
+.button:hover {
 	color: #fff;
-  }
-  .button:hover:after {
+}
+.button:hover:after {
 	background: #000;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-  }
+}
 
-  .button-white {
+.button-white {
 	font-family: quicksand;
 	width: 240px;
 	height: 20px;
@@ -171,13 +157,13 @@ a {
 	cursor: pointer;
 	transition: all 0.3s ease;
 	display: inline-block;
-  }
+}
 
-  .button-white {
+.button-white {
 	transition: all 0.3s ease;
 	overflow: hidden;
-  }
-  .button-white:after {
+}
+.button-white:after {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -187,20 +173,20 @@ a {
 	transition: all 0.3s ease;
 	-webkit-transform: scale(.1);
 	transform: scale(.1);
-  }
-  .button-white:hover {
+}
+
+.button-white:hover {
 	color: black;
 	background: transparent;
-  }
-  .button-white:hover:after {
+}
+
+.button-white:hover:after {
 	background:black;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-  }
+}
 
-
-
-  .button-black {
+.button-black {
 	font-family: quicksand;
 	width: 240px;
 	height: 20px;
@@ -214,13 +200,14 @@ a {
 	cursor: pointer;
 	transition: all 0.3s ease;
 	display: inline-block;
-  }
+}
 
-  .button-black {
+.button-black {
 	transition: all 0.3s ease;
 	overflow: hidden;
-  }
-  .button-black:after {
+}
+
+.button-black:after {
 	content: " ";
 	top: 0;
 	left: 0;
@@ -230,28 +217,30 @@ a {
 	transition: all 0.3s ease;
 	-webkit-transform: scale(.1);
 	transform: scale(.1);
-  }
-  .button-black:hover {
+}
+
+.button-black:hover {
 	color: white;
 	background: black;
-  }
-  .button-black:hover:after {
+}
+
+.button-black:hover:after {
 	background:white;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-  }
+}
 
 .projects {
-
 	background-color: white;
 	margin: 0%;
-
 }
+
 .projects h2, .projects h3 {
 	color: black;
 	margin-top: 3%;
 	margin-bottom: 0%;
 }
+
 .projects h2 {
 	font-size: 275%;
 	padding-top: 2%;
@@ -262,6 +251,7 @@ a {
 	margin-bottom: 0%;
 	color: black;
 }
+
 .project-text {
 	margin-left: 10%;
 	margin-right: 10%;
@@ -275,6 +265,7 @@ a {
 	width: 75%;
 	height: 800px;
 }
+
 .row {
 	display: flex;
 	flex-direction: row;
@@ -282,35 +273,36 @@ a {
 	width: 100%;
 }
   
-  .column {
+.column {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 100%;
 	flex: 1;
-  }
-  
-  .blue-column, .green-column {
-	  text-align: left;
-	  height: 50%;
-  }
+}
 
-  .blue-column {
-	  margin-left: 10%;
-  }
+.about-column, .picture-column {
+	text-align: left;
+	height: 50%;
+}
 
-  .name {
-	  margin-top: 10%;
-	  margin-bottom: 0px;
-  }
-  .name2 {
-	  margin-top: 0px;
-  }
+.about-column {  
+	margin-left: 10%;
+}
 
+.name {
+	margin-top: 10%;
+	margin-bottom: 0px;
+}
+
+.name2 {
+	margin-top: 0px;
+}
 
 .logos {
 	background-color: #fff;
 	display: flex;
 }
+
 .col, .col1, .col2 {
 	flex: 1;
 	margin-top: 1.5%;
@@ -320,6 +312,7 @@ a {
 #hamburger {
 	display: none;
 }
+
 .social {
 	height: 75px;
 	width: 75px;
@@ -335,8 +328,6 @@ a {
 	margin-bottom: 3%;
 	margin-left: 20%;
 }
-
-
 
 #footer {
 	position: relative;
@@ -391,8 +382,6 @@ a {
 	.picture_matt {
 		margin-left: 7%;
 	}
-
-
   }
 
 @font-face {
@@ -406,5 +395,5 @@ a {
 }
 
 ::selection {
-	background: #0E7C7B;
+	background: #6a6d6d;
 }
